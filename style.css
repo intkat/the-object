@@ -1,0 +1,57 @@
+
+.columns {
+float: left;
+column-count: 4;
+column-gap: 3em;
+column-width: 70px;
+
+}
+
+p{
+margin-top: 0;
+
+}
+.columnone {
+height: 900px;
+left: 0px;
+top: 14px;
+font-size: 62px;
+
+color: #000000;
+}
+
+.columntwo {
+
+height: 900px;
+left: 365px;
+
+font-size: 34px;
+
+color: #000000;
+}
+
+.columnthree {
+
+height: 900px;
+left: 735px;
+top: -4px;
+
+font-family: serif;
+font-weight: normal;
+font-size: 19px;
+
+color: #000000;
+
+}
+
+.columnfour {
+height: 900px;
+left: 1000px;
+top: 0px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 122px;
+
+color: #000000;
+}
