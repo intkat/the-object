@@ -1,64 +1,152 @@
 
-.columns {
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
 float: left;
 column-count: 4;
 column-gap: 3em;
 column-width: 70px;
+overflow: scroll;
+margin-top: 0px;
+z-index: 0;
+margin-top: 0px;
 
+}
+
+.row {
+    margin-top: 0px;
 }
 
 .img {
     size: 10px;
-    z-index: 0;
+    z-index: 3;
 }
 
-.columns {
-    overflow: scroll;
+.p {
+ margin: 5px;
 }
 
 .columnone {
+
 z-index: 2;
-height: 900px;
+display: inline-flex;
+float: left;
+width: 23%;
+padding: 25px;
+top: 0px;
+position: relative;
 font-size: 62px;
 color: #000000;
 }
 
 .columntwo {
 
-height: 900px;
-left: 365px;
-font-size: 34px;
-color: #000000;
+    z-index: 2;
+    display: inline-flex;
+    float: left;
+    width: 22.5%;
+    padding: 25px;
+    position: relative;
+    font-size: 34px;
+    color: #000000;
+    margin-top: 5px;
 }
 
 
 .columnthree {
 
-height: 900px;
-font-family: serif;
-font-weight: normal;
-font-size: 19px;
-
-color: #000000;
+    z-index: 2;
+    float: left;
+    width: 22.5%;
+    padding: 25x;
+    position: relative;
+    font-size: 19px;
+    color: #000000;
+    margin-top: 5px;
 
 }
 
 .columnfour {
-height: 900px;
-font-style: normal;
-font-weight: normal;
-font-size: 122px;
-
-color: #000000;
+    z-index: 2;
+    float: left;
+    position: relative;
+    width: 22.8%;
+    padding: 25px;
+    font-size: 122px;
+    color: #000000;
+    margin-top: 5px;
 }
 
-.img {
+.lookatme {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 35px;
+    left: 155px;
     z-index: 1;
 }
 
-td {
-    margin-top: 0px;
-    align-self: left;
-    font-size: 45px;
-    vertical-align: top;
+.pic-sarc {
+
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 695px;
+    left: 155px; 
+    z-index: 1;
+    animation-delay: 0;
 }
+
+.onemore {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 35px;
+    left: 575px;
+    z-index: 1;
+}
+
+.sonia {
+
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 695px;
+    left: 575px; 
+    z-index: 1;
+}
+
+.thinkin {
+
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 395px;
+    left: 975px; 
+    z-index: 1;
+}
+
+.mine {
+
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 35px;
+    left: 1375px; 
+    z-index: 1;
+}
+
+.book {
+
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 395px;
+    left: 1375px; 
+    z-index: 1;
+}
+
+.h1 {
+        visibility: hidden;
+    }
